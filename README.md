@@ -16,15 +16,26 @@ Our best performing model was our ensemble containing all models, which achieved
 
 ### To run the code, please follow the following steps from the commandline:
 1. Clone the repository to a folder of your choice on worker02: 
-- cd {folder of you choice}
-- git clone https://github.com/Guscode/Assignment_5_language
-2. Set your working directory to the newly created repository:
+```
+cd {folder of you choice}
+git clone https://github.com/Guscode/Assignment_5_language
+```
+3. Set your working directory to the newly created repository:
+
+```
 - cd Assignment_5_language
-3. Create virtual environment: 
-´´´
-bash ./hate_env.sh 
-´´´
-5. Activate the enviroment:
-- source hate_env/bin/activate
-6.  run the script: 
-- python HateClass.py
+```
+
+4. Create virtual environment: 
+```
+bash ./create_hate_venv.sh
+```
+4. Activate the enviroment:
+```
+source ./hate_env/bin/activate
+```
+5.  run the script: 
+```
+python HateClass.py
+
+```
