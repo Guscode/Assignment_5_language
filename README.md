@@ -22,7 +22,7 @@ git clone https://github.com/Guscode/Assignment_5_language
 ```
 2. Set your working directory to the newly created repository:
 ```
-cd Assignment_5_language
+cd Assignment_5_language/Hate
 ```
 3. Create virtual environment: 
 ```
